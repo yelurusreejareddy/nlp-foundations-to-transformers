@@ -12,14 +12,14 @@ generated ranked frequency counts, and verified Zipf's Law with a log-frequency
 vs rank chart.
 
 Files: text_preprocessing_zipf.ipynb, sample_2025.txt, output1.txt,
-output2.txt, war-and-peace.txt, zipf_chart.png
+output2.txt, war-and-peace.txt, zipf_chart.png, text_preprocessing_report.pdf
 
 ### Word Vectors and SVD
 Constructed co-occurrence matrices from a corpus and applied SVD for dimensionality
 reduction. Analyzed word similarity using cosine similarity, explored word analogies,
 and compared SVD-based vectors against GloVe embeddings.
 
-Files: word_vectors_svd.ipynb, env.yml
+Files: word_vectors_svd.ipynb, env.yml, word_vectors_report.pdf
 
 ### Vector Embeddings and RAG
 Built a multi-document RAG pipeline over 4 AI policy documents (Blueprint for an
@@ -27,7 +27,7 @@ AI Bill of Rights, EU AI Act, Executive Order on AI, NIST AI RMF). Compared thre
 sentence transformers - MiniLM, MPNet, and multi-qa-MiniLM - on retrieval quality
 and answer accuracy using manual scoring across 5 query types.
 
-Files: vector_embeddings_rag.ipynb
+Files: vector_embeddings_rag.ipynb, vector_embeddings_report.pdf
 
 ### N-gram Language Models
 Implemented unigram, bigram, and trigram language models from scratch on the 1 Billion
@@ -35,7 +35,7 @@ Word Benchmark. Evaluated perplexity with and without Laplace smoothing and gene
 text using greedy choice, random sampling, and top-p nucleus sampling.
 
 Files: ngram_language_models.ipynb, 1b_benchmark.train.tokens.txt,
-1b_benchmark.test.tokens.txt
+1b_benchmark.test.tokens.txt, ngram_lm_report.pdf
 
 ### Transformer Text Summarization
 Three-part work on abstractive summarization. Ran inference with T5-small and a
@@ -45,7 +45,7 @@ results before and after fine-tuning. Designed and tested hand-crafted prompts o
 a SOTA LLM using zero-shot and few-shot strategies.
 
 Files: summarization_t5_inference.ipynb, summarization_t5_finetuning.ipynb,
-summarization_llm_prompting.ipynb
+summarization_llm_prompting.ipynb, cnn_dailymail_1percent.csv, summarization_report.pdf
 
 Note: Large datasets (CNN/DailyMail 5%, Aeon Essays) not included due to size.
 
